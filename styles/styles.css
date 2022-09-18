@@ -271,7 +271,6 @@ body * {
 
 hr {
     margin-top: 60px;
-    size: 1.54px;
     width: 55px;
     border: 0.25px solid #E3B873;
     border-bottom-width: 0;
@@ -500,15 +499,15 @@ h4 {
     border-bottom-color: rgba(255, 255, 255, 0.3);
 }
 
-input[alt="form"] {
+input[name="form"] {
     color: #FFFFFF;
 }
 
-input[alt="form"]::-webkit-input-placeholder {
+input[name="form"]::-webkit-input-placeholder {
     color: #FFFFFF;
 }
 
-input[alt="form"]::-moz-placeholder {
+input[name="form"]::-moz-placeholder {
     color: #FFFFFF;
 }
 
